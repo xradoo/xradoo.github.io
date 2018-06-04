@@ -361,8 +361,8 @@ jQuery(function ($) {
             ];
 
             var mapOptions = {
-                zoom: 15,
-                scrollwheel: false,
+                zoom: 10,
+                scrollwheel: true,
                 center: myLatlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 disableDefaultUI: true,
@@ -374,7 +374,7 @@ jQuery(function ($) {
                 position: myLatlng,
                 map: map,
                 animation: google.maps.Animation.DROP,
-                title: 'Hello World!'
+                title: 'location'
             });
 
             var contentString = '' +
