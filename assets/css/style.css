@@ -295,6 +295,7 @@ ul.list-check li::before {
 ----------------------------------------------------- */
 .section-title {
     margin-bottom: 80px;
+	
     text-align: center;
     font-size: 50px;
     line-height: 50px;
@@ -335,7 +336,7 @@ ul.list-check li::before {
 }
 #home:before {
 	content: "";
-	background-color: rgba(26, 30, 35, 0.85);
+	background-color: rgba(26, 30, 35, 0.45);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -432,16 +433,16 @@ SOCIAL ICON
 
 /* === NAVIGATION === */
 .header {
-    border-bottom: 1px solid #eee;
+    border-bottom: 5px solid #e6f2ff;
     position: relative;
     width: 100%;
     z-index: 998;
     padding-bottom: 1px;
-    background: #fff;
+    background-color: #e6f2ff;
 }
 
 .header::after {
-    border-bottom:1px solid #eee;
+    border-bottom:0px solid #e6f2ff;
     width: 100%;
     position: absolute;
     content: "";
@@ -478,7 +479,7 @@ SOCIAL ICON
     border-top: 2px solid #68c3a3;
     border-radius: 0;
     border-bottom: 3px double #ddd;
-    background-color: #FFFFFF;
+    background-color: #e6f2ff;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -547,11 +548,25 @@ SOCIAL ICON
 
 
 /* === About Section === */
+#About {
+	-webkit-background-attachment: fixed;
+    background-attachment: fixed;
+	background-color: white;
+	background-size: cover;
+	padding: 0;
+	position: relative;
+}
+
+
+
 .short-info {
     margin-bottom: 40px;
 }
-
+.short-info p {
+text-align: center;
+}
 .short-info h3 {
+    
     margin-bottom: 30px;
 }
 
@@ -560,8 +575,7 @@ SOCIAL ICON
     display:inline-block;
 }
 .short-info ul li {
-    width: 50%;
-    float: left;
+    width: 100%;
 }
 
 .my-signature{
@@ -627,13 +641,31 @@ SOCIAL ICON
 
 
 /* === Video Section === */
-
 .video-section {
-    background: url(../images/video-bg.jpg) no-repeat center center;
+    background: url(../images/services.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 500px;
 }
+#video {
+	background: url(../images/services.jpg) no-repeat center center;
+	-webkit-background-attachment: fixed;
+    background-attachment: fixed;
+	background-color: #222;
+	background-size: cover;
+	padding: 0;
+	position: relative;
+}
+#video:before {
+	content: "";
+	background-color: rgba(26, 30, 35, 0.15);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 .video-intro {
     position: absolute;
@@ -1660,11 +1692,16 @@ Icon for all respective meta
 
 /* === About Section === */
 .short-info {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
+.container-about {
 
+    width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .short-info h3 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .hobby-list-wrap h3{
@@ -1676,7 +1713,7 @@ Icon for all respective meta
     text-transform: uppercase;
     padding: 15px 30px;
     border-bottom: 3px double #eee;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     display: block;
 }
@@ -1686,6 +1723,30 @@ Icon for all respective meta
 .hobby-list span:nth-child(6) {
     margin-bottom: 0;
 }
+
+/*OUR SERVICES SECTION*/
+
+#Services {
+	-webkit-background-attachment: fixed;
+    background-attachment: fixed;
+	background-color: #e6f2ff;
+	background-size: cover;
+	padding: 0;
+	position: relative;
+	
+}
+#Services:before {
+	content: "";
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
 
 
 
