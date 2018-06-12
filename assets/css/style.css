@@ -642,13 +642,13 @@ text-align: center;
 
 /* === Video Section === */
 .video-section {
-    background: url(../images/services.jpg) no-repeat center center;
+    background: url(../images/home2bkp.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 500px;
 }
 #video {
-	background: url(../images/services.jpg) no-repeat center center;
+	background: url(../images/home2bkp.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
