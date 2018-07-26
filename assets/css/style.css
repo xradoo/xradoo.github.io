@@ -1879,3 +1879,21 @@ Icon for all respective meta
 .section-padding {
     padding: 20px 0 20px;
 }
+.section-title {
+    margin-bottom: 50px;
+	line-height: 40px;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+.contact-form strong {
+    margin-bottom: 0px;
+}
+.contact-section address, .contact-section .contact-number {
+      line-height: 18px; 
+      margin-bottom: 0px; 
+}
+.form-group {
+    margin-bottom: 0px;
+}
+.mb-0 { margin-bottom: 0px; }
