@@ -1896,4 +1896,9 @@ Icon for all respective meta
 .form-group {
     margin-bottom: 0px;
 }
-.mb-0 { margin-bottom: 0px; }
+.mb-0 { 
+	margin-bottom: 0px; 
+}
+.contact-form .form-control {
+	height: 35px;
+}
