@@ -1902,3 +1902,6 @@ Icon for all respective meta
 .contact-form .form-control {
 	height: 35px;
 }
+.col-half-offset{
+    margin-left:4.166666667%
+}
