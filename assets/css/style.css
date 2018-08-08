@@ -364,8 +364,14 @@ ul.list-check li::before {
 	margin-bottom: 16px;
 	color: #52b3d9;
 }
+.intro h6{
+	font-size: 80px;
+	line-height: 80px;
+	margin-bottom: 16px;
+	color: #fff;
+}
 .intro h1 span{
-	color: #68c3a3;
+	color: #DCDCDC;
 }
 .intro p{
 	color: #f7f7f7;
