@@ -274,8 +274,8 @@ ul.list-check {
 
 ul.list-check li{
     position: relative;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 30px;
 }
 ul.list-check li::before {
     content: "\f00c";
