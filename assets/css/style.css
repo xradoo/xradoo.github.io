@@ -31,7 +31,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    line-height: 28px;
+    line-height: 38px;
     font-weight: 300;
     font-size: 14px;
     color:#282828;
@@ -104,13 +104,12 @@ a,
 h1, h2, h3, h4, h5, h6{
     font-weight: 700;
 	
-    margin:0;
     text-transform: uppercase;
 }
 
 h1 {
     font-size: 36px;
-    line-height: 36px;
+    line-height: 38px;
 }
 
 h2 {
@@ -120,7 +119,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 h4 {
@@ -374,7 +373,7 @@ ul.list-check li::before {
 
 .intro h2{
 	font-size: 30px;
-	line-height: 30px;
+	line-height: 38px;
 	margin-bottom: 16px;
 	color: #fff;
 }
@@ -1903,7 +1902,7 @@ Icon for all respective meta
 }
 .section-title {
     margin-bottom: 50px;
-	line-height: 20px;
+	line-height: 30px;
 }
 .form-group {
     margin-bottom: 5px;
