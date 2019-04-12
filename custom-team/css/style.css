@@ -621,6 +621,7 @@
   html *,
   body,
   p {
+	font-size: 45px;
     text-align: center;
   }
   /**

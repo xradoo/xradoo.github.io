@@ -370,11 +370,19 @@ ul.list-check li::before {
 	margin-bottom: 16px;
 	color: #fff;
 }
+
+.intro h2{
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 16px;
+	color: #fff;
+}
 .intro h1 span{
 	color: #DCDCDC;
 }
 .intro p{
-	color: #f7f7f7;
+	font-size: 35px
+	color: #fff;
 	margin-bottom: 40px;
 }
 
@@ -569,6 +577,7 @@ SOCIAL ICON
     margin-bottom: 40px;
 }
 .short-info p {
+font-size: 25px;
 text-align: center;
 }
 .short-info h3 {
